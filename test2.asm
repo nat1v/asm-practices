@@ -5,10 +5,10 @@ section .bss
     result_len resb 4
 
 section .data
-    nim             db 'NIM: 2415101033', 10
+    nim             db 'NIM: [Redacted]', 10
     nimLen          equ $ - nim
     
-    nama            db 'Nama: mang di', 10
+    nama            db 'Nama: [redacted]', 10
     namaLen         equ $ - nama
 
     msg1            db 10, ' bilangan pertama: '
