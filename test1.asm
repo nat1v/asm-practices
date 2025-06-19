@@ -1,7 +1,7 @@
 section .data
-    Nama:     db 'Komang Adi Ari Jaya Kusuma',10  ; NAMA + plus a linefeed character
+    Nama:     db '[YOUR NAME HERE]',10  ; NAMA + plus a linefeed character
     namaLen:  equ $-Nama                      ; Length of the 'NAMA' string
-    NIM:      db '2415101033',10
+    NIM:      db '[YOUR NAME HERE]',10
     NIMLen:   equ $-NIM                       ; Length nim
     
     msgInput: db 'silahkan masukan nomor: '
